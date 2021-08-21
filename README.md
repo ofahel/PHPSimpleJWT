@@ -1,4 +1,5 @@
 # PHPSimpleJWT
+PHPSimpleJWT is a minimalist and powerful JSON Web Token manager
 
 [![oFahel](https://i.imgur.com/hSyuS32.png)](https://github.com/ofahel/)
 
