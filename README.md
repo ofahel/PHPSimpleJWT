@@ -30,7 +30,7 @@ $content = [
 $encoded = $JWT->generate($content, $secret_key);
 //Return example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 
-//Validade a JWT
+//Validate a JWT
 $JWT->validate($encoded, $secret_key); //Returns a BOOLEAN
 
 //Decode JWT
